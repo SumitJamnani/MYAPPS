@@ -1,0 +1,102 @@
+.demo
+{
+	position:absolute;
+	top:320%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	margin:0;
+	padding:0;
+	display:flex;
+}
+
+.demo li
+{
+	list-style:none;
+}
+
+.demo li a
+{
+	position:relatives;
+	width:60px;
+	height:60%;
+	background:#f1f1f1;
+	display:block;
+	text-align:center;
+	margin:0 10px;
+	border-radius:50%;
+	padding:6px;
+	box-sizing:border-box;
+	text-decoration:none;
+	background:linear-gradient(0deg,#ddd,#fff);
+	box-shadow:0 10px 15px rgba(0,0,0,.3);
+	transition:.5s;
+}
+
+.demo li a:hover
+{
+	box-shadow:0 2px 5px rgba(0,0,0,.3);
+}
+
+.demo li a .fa
+{
+	width:100%;
+	height:100%;
+	display:block;
+	background:#ff0;
+	border-radius:50%;
+	line-height:calc(60px - 12px);
+	font-size:24px;
+	background:linear-gradient(0deg,#fff,#ddd);
+}
+
+.demo li:nth-child(1) a:hover .fa
+{
+	color:#3b5998;
+}
+
+.demo li:nth-child(2) a:hover .fa
+{
+	color:#007bb6;
+}
+
+.demo li:nth-child(3) a:hover .fa
+{
+	color:#bb0000;
+}
+
+
+.demo li:nth-child(4) a:hover .fa
+{
+	color:#bc2a8d;
+}
+
+.demo li:nth-child(5) a:hover .fa
+{
+	color:yellow;
+}
+
+
+.demo li:nth-child(6) a:hover .fa
+{
+	color:#007bb6;
+}
+
+
+.demo li:nth-child(7) a:hover .fa
+{
+	color:#dd4b39;
+}
+	
+	
+	.demo li:nth-child(9) a:hover .fa
+{
+	color:#00aced;
+}
+	
+
+	
+	
+	
+	
+	
+	
